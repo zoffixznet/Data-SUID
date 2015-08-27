@@ -61,7 +61,7 @@ use Readonly;
 use namespace::clean;
 use overload '""' => 'hex';
 
-our $VERSION = '1.000001';
+our $VERSION = '1.000002';
 $VERSION = eval($VERSION);
 
 our @ISA         = qw(Exporter);
@@ -94,7 +94,7 @@ sub new
 
 =over 2
 
-=item B<uuencode>
+=item B<hex>
 
 Returns the SUID value as a 24-character hexadecimal string.
 
@@ -113,7 +113,7 @@ sub hex
 
 =over 2
 
-=item B<uuencode>
+=item B<dec>
 
 Returns the SUID value as a big integer.
 
