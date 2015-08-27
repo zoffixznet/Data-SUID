@@ -61,7 +61,7 @@ use Readonly;
 use namespace::clean;
 use overload '""' => 'hex';
 
-our $VERSION = '1.000000';
+our $VERSION = '1.000001';
 $VERSION = eval($VERSION);
 
 our @ISA         = qw(Exporter);
